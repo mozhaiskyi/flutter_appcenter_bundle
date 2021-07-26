@@ -37,17 +37,6 @@ android {
     }
     lintOptions {
         disable 'InvalidPackage'
-        checkReleaseBuilds false
-    }
-    flavorDimensions "distribute"
-    productFlavors {
-        appCenter {
-            dimension "distribute"
-        }
-        googlePlay {
-            isDefault true
-            dimension "distribute"
-        }
     }
 }
 
